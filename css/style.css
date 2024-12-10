@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(165, 42, 42, 0.2);
+  }
+  nav {
+    height: 300px;
+    background-image: url("../image/e1c23ac34847740f672717c89a62ae37.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 8px black;
+  }
+
+  nav > input {
+    position: sticky;
+    top: 60px;
+    left: 15%;
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(99, 18, 18, 1);
+    color: white;
+    border: none;
+    padding: 10px;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+  }
+
+  img:hover {
+    height: 152px;
+    width: 152px;
+    box-shadow: 0px 15px 15px black;
+  }
+
+  .images {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .coffeephotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .coffeephotos > h4 {
+    margin: 15px 0;
+  }
+ 
+  main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px   ;
+  }
+
+  .house_list {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 30px;
+    box-shadow: 0px 0px 8px brown;
+    background-color: rgb(165, 42, 42, 0.3);
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    margin-block: 40px ;
+    border-radius: 5px;
+  }
+
+  h1{
+    padding-bottom: 3px;
+  }
+
+  li{
+    margin: 10px 0px;
+  }
